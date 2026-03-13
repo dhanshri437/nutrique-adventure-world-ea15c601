@@ -1,12 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import AudienceSection from "@/components/AudienceSection";
+import GameplaySection from "@/components/GameplaySection";
+import RainbowPlateSection from "@/components/RainbowPlateSection";
+import WorldsSection from "@/components/WorldsSection";
+import ChallengesSection from "@/components/ChallengesSection";
+import MonstersSection from "@/components/MonstersSection";
+import RewardsSection from "@/components/RewardsSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import ImpactSection from "@/components/ImpactSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CTASection from "@/components/CTASection";
+import FeedbackSection from "@/components/FeedbackSection";
+import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <FeaturesSection />
+      <AudienceSection />
+      <GameplaySection />
+      <RainbowPlateSection />
+      <WorldsSection />
+      <ChallengesSection />
+      <MonstersSection />
+      <RewardsSection />
+      <BenefitsSection />
+      <ImpactSection />
+      <TestimonialsSection />
+      <CTASection />
+      <FeedbackSection />
+      <FooterSection />
     </div>
   );
 };
