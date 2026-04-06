@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -15,12 +16,15 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import FeedbackSection from "@/components/FeedbackSection";
 import FooterSection from "@/components/FooterSection";
+import GameScreen from "@/game/GameScreen";
 
 const Index = () => {
+  const [gameOpen, setGameOpen] = useState(false);
+
   return (
     <div className="min-h-screen">
       <Navbar />
-      <HeroSection />
+      <HeroSection onPlayDemo={() => setGameOpen(true)} />
       <AboutSection />
       <FeaturesSection />
       <AudienceSection />
@@ -36,6 +40,7 @@ const Index = () => {
       <CTASection />
       <FeedbackSection />
       <FooterSection />
+      <GameScreen open={gameOpen} onClose={() => setGameOpen(false)} />
     </div>
   );
 };
