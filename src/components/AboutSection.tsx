@@ -10,7 +10,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-card">
       <div className="container mx-auto px-4">
-        <h2 className="section-title">What is <span className="text-primary">NutriQuest</span>?</h2>
+        <h2 className="section-title">What is <span className="text-primary">NutriHive</span>?</h2>
         <p className="section-subtitle">
           An educational adventure game that teaches children about healthy eating habits through engaging gameplay, challenges, and rewards.
         </p>

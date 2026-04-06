@@ -1,12 +1,12 @@
 const testimonials = [
   {
-    quote: "My daughter now asks for fruits instead of candy! NutriQuest made healthy eating fun for our whole family.",
+    quote: "My daughter now asks for fruits instead of candy! NutriHive made healthy eating fun for our whole family.",
     author: "Sarah M.",
     role: "Parent",
     emoji: "👩",
   },
   {
-    quote: "I use NutriQuest in my classroom and the kids absolutely love it. It's the perfect educational tool!",
+    quote: "I use NutriHive in my classroom and the kids absolutely love it. It's the perfect educational tool!",
     author: "Mr. Johnson",
     role: "Teacher",
     emoji: "👨‍🏫",

@@ -13,7 +13,7 @@ const FeaturesSection = () => {
     <section id="features" className="py-20 bg-game-pattern">
       <div className="container mx-auto px-4">
         <h2 className="section-title">Core <span className="text-secondary">Features</span></h2>
-        <p className="section-subtitle">Discover what makes NutriQuest the most fun way to learn about healthy eating!</p>
+        <p className="section-subtitle">Discover what makes NutriHive the most fun way to learn about healthy eating!</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {features.map((f, i) => (
             <div key={i} className={`game-card ${f.bg} border-2 border-transparent hover:border-current ${f.color}`}>

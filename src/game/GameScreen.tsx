@@ -39,7 +39,7 @@ const GameMenu = () => {
       </div>
 
       <div className={`text-center text-white z-10 transition-all duration-700 ${show ? 'scale-100 translate-y-0' : 'scale-75 translate-y-10'}`}>
-        <h1 className="text-6xl md:text-8xl font-display font-bold mb-4 drop-shadow-lg">🥦 NutriQuest</h1>
+        <h1 className="text-6xl md:text-8xl font-display font-bold mb-4 drop-shadow-lg">🐝 NutriHive</h1>
         <p className="text-xl md:text-2xl mb-8 opacity-90">Eat Healthy, Play Smart!</p>
 
         <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-6 mb-8 max-w-md mx-auto">
