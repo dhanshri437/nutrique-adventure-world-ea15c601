@@ -16,7 +16,7 @@ const BenefitsSection = () => {
   return (
     <section id="benefits" className="py-20 bg-game-pattern">
       <div className="container mx-auto px-4">
-        <h2 className="section-title">Why <span className="text-primary">NutriQuest</span>?</h2>
+        <h2 className="section-title">Why <span className="text-primary">NutriHive</span>?</h2>
         <p className="section-subtitle">Benefits for the whole family!</p>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="game-card bg-card">

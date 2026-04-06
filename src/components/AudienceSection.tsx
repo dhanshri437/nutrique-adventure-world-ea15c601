@@ -16,7 +16,7 @@ const AudienceSection = () => {
   return (
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
-        <h2 className="section-title">Who Plays <span className="text-accent">NutriQuest</span>?</h2>
+        <h2 className="section-title">Who Plays <span className="text-accent">NutriHive</span>?</h2>
         <p className="section-subtitle">Tailored experiences for every age group!</p>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="game-card bg-game-green/5 border-2 border-game-green/20">

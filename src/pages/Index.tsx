@@ -37,7 +37,7 @@ const Index = () => {
       <BenefitsSection />
       <ImpactSection />
       <TestimonialsSection />
-      <CTASection />
+      <CTASection onPlayDemo={() => setGameOpen(true)} />
       <FeedbackSection />
       <FooterSection />
       <GameScreen open={gameOpen} onClose={() => setGameOpen(false)} />

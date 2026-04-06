@@ -13,14 +13,14 @@ const HeroSection = ({ onPlayDemo }: HeroSectionProps) => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-6">
-              <span className="gradient-text">NutriQuest –</span>
+              <span className="gradient-text">NutriHive –</span>
               <br />
               <span className="gradient-text">Eat Healthy,</span>
               <br />
               <span className="text-foreground">Play Smart!</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground font-body mb-8 max-w-lg">
-              NutriQuest helps kids learn healthy eating through fun games, exciting adventures, and delicious discoveries!
+              NutriHive helps kids learn healthy eating through fun games, exciting adventures, and delicious discoveries!
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <button onClick={onPlayDemo} className="game-btn-primary text-lg animate-pulse hover:animate-none">🎮 Play Demo</button>
